@@ -4,7 +4,7 @@ def my_each(array) # put argument(s) here
 
   while x != array.length
     array[x]
-    yield
+    yield (array[x])
     x += 1
   end
 
